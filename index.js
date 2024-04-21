@@ -20,6 +20,6 @@ app.use('/api/mangas', require('./routes/Mangas-routes'));
 
 
 
-app.listen(3000, () =>{
+app.listen(3000,"0.0.0.0", () =>{
     console.log("Servidor corriendo en puerto " + 3000)
 });
